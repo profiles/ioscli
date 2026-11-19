@@ -1,8 +1,8 @@
-Package: com.anonymous.trustctl
-Name: trustctl
-Version: 0.1.0
+Package: com.anonymous.ioscli
+Name: ioscli
+Version: 0.2.0
 Architecture: iphoneos-arm
-Description: Trust/untrust root CA certificates via SecTrustStore SPI
+Description: ioscli for jailbroken iOS
 Maintainer: anonymous
 Author: anonymous
 Section: System

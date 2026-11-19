@@ -2,8 +2,18 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>application-identifier</key>
+	<string>com.anonymous.ioscli</string>
+	<key>platform-application</key>
+	<true/>
 	<key>com.apple.private.security.no-sandbox</key>
 	<true/>
+
+	<!-- cmd/profile.m: ManagedConfiguration XPC + custom platform identity. -->
+	<key>com.apple.managedconfiguration.profiled-access</key>
+	<true/>
+
+	<!-- cmd/cert.m: SecTrustStore anchor modification. -->
 	<key>modify-anchor-certificates</key>
 	<true/>
 </dict>
